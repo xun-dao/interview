@@ -4,7 +4,8 @@
 
 ```java
 /** 
-unlike constructors, static factory method have name which can be used to identify the purpose of this method
+unlike constructors, static factory method have name which can be used to identify 
+the purpose of this method
 */
 
 
