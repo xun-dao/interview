@@ -1,13 +1,8 @@
 # EFFECTIVE JAVA
 
-## 1. consider replace constructors by static factory method
+## 1. 使用静态工厂方法替代构造器
 
-```java
-/** 
-unlike constructors, static factory method have name which can be used to identify 
-the purpose of this method
-*/
+## 2. 在构造器有多个构造参数的时候，考虑使用Builder
 
-
-```
+## 3. 使用私有构造器或枚举强化单例属性
 
