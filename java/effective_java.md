@@ -54,7 +54,10 @@ public static Connection conn = initConn();
 
 ```java
 /** 
-静态工厂方法和构造器都不能很好地解决构造器中有多个参数的问题，使用构造可以合理解决
+static factory method 和 constructor 都不能很好地解决构建实例需要多个参数的问题，使用Builder可以合理解决
+抽象类用抽象Builder
+具体类用具体Builder
+在构造参数超过四个的时候考虑使用Builder
 */
 
 public class Person{
@@ -93,57 +96,42 @@ public void test(){
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 3. 使用私有构造器或枚举强化单例属性
 
 ```java
+// 静态属性
 
+// 静态工厂方法
+
+
+// 枚举
+
+public class Person{
+  private Person(){
+  }
+  // static field
+  public static final Person person = new Person();
+  
+  // static factory method
+  public static Person getInstance(){
+    return new person();
+  }
+}
+
+// enum
+public enum Person{
+  instance;
+  public void say(){
+    System.out.println("hello");
+  }
+}
 ```
 
 
+
+## 4.
+
+## 5.
 
 
 
