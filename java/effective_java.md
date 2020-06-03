@@ -50,6 +50,8 @@ public static Connection conn = initConn();
 
 ```
 
+
+
 ## 2. 在构造器有多个构造参数的时候，考虑使用Builder
 
 ```java
@@ -96,16 +98,11 @@ public void test(){
 }
 ```
 
+
+
 ## 3. 使用私有构造器或枚举强化单例属性
 
 ```java
-// 静态属性
-
-// 静态工厂方法
-
-
-// 枚举
-
 public class Person{
   private Person(){
   }
@@ -129,9 +126,75 @@ public enum Person{
 
 
 
-## 4.
+## 4. 使用私有构造器加强不可实例化的能力
 
-## 5.
+```java
+// 像java.lang.Math以及java.util.Array这样的，只被被当作工具类来使用的类，应该提供一个默认的 private constructor 来防止他们被继承和被实例化
+```
+
+## 5. 优先使用依赖注入而不是直接获取
+
+```java
+/** 
+依赖注入框架：Dagger，Guice，Spring
+*/
+```
+
+## 6. 避免创建不必要的对象
+
+```java
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
