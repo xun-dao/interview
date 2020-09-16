@@ -131,20 +131,17 @@ a = 'hello {name}, you are a {type}'.format(name='Jack', type='boy')
 
 
 
-
-
 $$
-
-a = \left[
-\matrix{
-  \alpha_1 & test1\\
-  \alpha_2 & test2\\
-  \alpha_3 & test3 
-}
-\right]
-
-
-$$
+					
+				
+				
+				xxxxxxxxxx c(u)=\begin{cases} \sqrt\frac{1}{N}，u=0\\ \sqrt\frac{2}{N}， u\neq0\end{cases}c(u)=\begin{cases} \frac{1}{n}，n=0 \\  n，n=1\end{cases}​​​a = \left[\matrix{  \alpha_1 & test1\\  \alpha_2 & test2\\  \alpha_3 & test3 }\right]
+				$$
+					
+				
+				
+					
+						
 
 
 
