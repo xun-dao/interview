@@ -137,7 +137,13 @@ a = 'hello {name}, you are a {type}'.format(name='Jack', type='boy')
 
 
 
-
+a = \left[
+\matrix{
+  \alpha_1 & test1\\
+  \alpha_2 & test2\\
+  \alpha_3 & test3 
+}
+\right]
 
 
 
