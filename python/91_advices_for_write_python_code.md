@@ -133,9 +133,7 @@ a = 'hello {name}, you are a {type}'.format(name='Jack', type='boy')
 
 
 
-
-
-
+$$
 
 a = \left[
 \matrix{
@@ -146,7 +144,7 @@ a = \left[
 \right]
 
 
-
+$$
 
 
 
